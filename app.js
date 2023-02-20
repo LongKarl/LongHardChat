@@ -50,23 +50,7 @@ const updateMessages = (message, user, channel) => {
     }
 };
 
-const seedMessages = () => {
-    updateMessages('hello', 'longkarluk', 'longkarluk');
-    updateMessages('test', 'JonnyB', 'hard_pretzel');
-
-};
-seedMessages();
 
 
-/*
-document.addEventListener("DOMContentLoaded", () => 
-{
-    console.log('hello');
-    ComfyJS.onCommand = ( user, command, message, flags, extra ) => {
-        if( flags.broadcaster && command === "test" ) {
-          console.log( "!test was typed in chat" );
-        }
-      }
-      ComfyJS.Init( "longkarluk" );
-});
-*/
+
+/
