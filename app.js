@@ -27,7 +27,7 @@ const updateMessages = (message, user, channel) => {
     }
 
     const userSpan = document.createElement('span');
-    userSpan.innerText = user;
+    userSpan.innerText = ` - ${user}`;
     userSpan.classList.add('user');
     
 
@@ -53,4 +53,3 @@ const updateMessages = (message, user, channel) => {
 
 
 
-/
