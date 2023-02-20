@@ -14,6 +14,7 @@
     font-size: 10rem;
     padding-left: 0;
     padding: 1rem;
+    font-size: 30rem;
     
 }
 
@@ -57,7 +58,7 @@
 
 .longChannel {
     font-weight:700;
-    font-size: 50rem;
+    
     background-image: linear-gradient(
         141deg,
         #9fb8ad 0%,
